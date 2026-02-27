@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+<meta charset="utf-8">
+
+<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
+<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
+<link rel="preload" href="/assets/css/main.css" as="style">
+
+<style>
+  html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header, nav, footer {
+    display: block;
+  }
+
+  article h1 {
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  .logo-container {
+            margin-bottom: 20px;
+        }
+.logo-container img {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+</style>
+
+
+
+<!-- begin SEO -->
+<title>SynthIR @ SIGIR 2026</title>
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="SIGIR Workshop">
+<meta property="og:title" content="SynthIR @ SIGIR 2026">
+<link rel="canonical" href="https://example.com/synthir-sigir2026">
+<meta property="og:url" content="https://example.com/synthir-sigir2026">
+<meta name="description" content="SynthIR: Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026).">
+<meta property="og:description" content="SynthIR: Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026).">
+<!-- end SEO -->
+
+
+<link href="https://zdzheng.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Zhedong Zheng Feed">
+<link rel="preconnect" href="https://cdn.clustrmaps.com">
+<link rel="dns-prefetch" href="https://cdn.clustrmaps.com">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="description" content="Zhedong Zheng is an assistant professor at University of Macau, working on object re-identification, AIGC, and data-centric AI. He earned his Ph.D. at UTS and has published over 50 papers at top conferences and journals.">
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<script type="application/ld+json">
+		    { "@context": "https://schema.org", 
+		     "@type": "Person",
+			 "name": "Zhedong Zheng",
+			 "gender": "Male",
+			 "description": "Computer Vision Researcher",
+			 "jobTitle": "Assistant Professor",
+		     "affiliation": {
+		       "@type": "Organization",
+		       "name": "University of Macau"
+		     },
+			 "alumniOf": [
+			 	{
+			 	 "@type": "CollegeOrUniversity",
+			 	 "name": "University of Technology Sydney"
+			 	},
+			 	{
+			 	 "@type": "CollegeOrUniversity",
+			 	 "name": "Fudan University"
+			 	}
+			 ],
+			 "url": "https://zdzheng.xyz",
+			 "image": "https://zdzheng.xyz/images/profile.webp",
+			 "sameAs": [
+			    "https://www.fst.um.edu.mo/people/zhedongzheng/",
+				"https://scholar.google.com/citations?user=XT17oUEAAAAJ",
+			 	"https://www.researchgate.net/profile/Zhedong-Zheng-2",
+				"https://www.facebook.com/zhedongzheng12",
+				"https://www.linkedin.com/in/zhedongzheng",
+				"https://github.com/layumi",
+				"http://orcid.org/0000-0002-2434-9050",
+				"https://www.zhihu.com/people/zhengzhedong"
+			 	]
+	        }
+</script>
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<meta http-equiv="cleartype" content="on">
+<link rel="stylesheet" href="./assets/css/main.css" media="all">
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://zdzheng.xyz/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://zdzheng.xyz/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://zdzheng.xyz/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://zdzheng.xyz/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://zdzheng.xyz/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://zdzheng.xyz/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://zdzheng.xyz/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://zdzheng.xyz/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://zdzheng.xyz/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="mask-icon" href="https://zdzheng.xyz/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://zdzheng.xyz/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://zdzheng.xyz/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://zdzheng.xyz/assets/css/academicons.css" media="print" onload="this.media='all'">
+
+<style>
+		.author {
+			text-decoration: none !important;
+			color: #333333;
+		}
+
+		.author:hover {
+			text-decoration: underline;
+			color: #0066cc;
+		}
+	    pre {
+	      background-color: gray;
+	      color: white;
+	      padding: 10px;
+	      border-radius: 5px;
+	    }
+</style>
+	
+<!-- Support for MatJax  # no math
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://zdzheng.xyz/">AIGC-DL Lab</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/research">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/team/">Team</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/resources/">Resources</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/seminar/">Seminar</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/recruitment/">Join Us</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div id="main" role="main">
+  <meta name="og:description" content="SIGIR 2026"> 
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SIGIR 2026">
+    <div class="page__inner-wrap">
+        <header>
+          <h1 class="page__title" itemprop="headline">SIGIR 2026</h1>
+		  <meta name="description" content="SIGIR 2026">
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <div align="center"> 
+  <h2> Special Interest Group on Information Retrieval </h2>
+ </div>
+
+<div align="center" style="vertical-align:middle"> 
+  <h2> SIGIR 2026 </a><a href="https://sigir.org/">(https://sigir.org/)</a>  </h2>
+ </div>
+<div align="center"> 
+  <h2> Workshop on </h2>
+  <h2> SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026)
+</h2>
+ <img src="./logo.png" alt="workshop logo">
+</div>
+
+<meta name="og:image" content="logo.png">
+
+<meta name="og:description" content="SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026)">
+
+<meta name="description" content="SIGIR 2026 Workshop SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026) ">
+
+<p>SynthIR focuses on the system-level implications of AI-generated content in retrieval ecosystems, emphasizing evaluation validity,
+                provenance, user trust, and human-centered design in mixed (synthetic + human-authored) information environments.
+</p>
+
+<p>
+    <a href="https://openreview.net/">[Submission Site]</a>
+</p>
+<!--
+<p><img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20"> <a href="https://youtu.be/">[Youtube]</a> 
+<a href="https://www.bilibili.com/">[Bilibili]</a> <img class="emoji" title=":sunglasses:" alt=":sunglasses:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png" height="20" width="20"></p>
+-->
+
+<h2 id="news">News</h2>
+
+<!--
+<ul>
+  <li>Video <a href="https://youtu.be/">[Youtube]</a> and <a href="https://www.bilibili.com/">[Bilibili]</a>
+</li>
+-->
+  <li>22/4/2024 - Workshop homepage is now available.</li>
+</ul>
+
+<h2 id="important-dates">Important Dates</h2>
+
+<p>Please note: deadlines are at 11:59 p.m. <a href="https://time.is/Anywhere_on_Earth">Anywhere on Earth</a>.</p>
+<ul>
+    <li><strong>Submission deadline:</strong> 7 April 2026</li>
+    <li><strong>Notification:</strong> 22 April 2026</li>
+    <li><strong>Camera-ready:</strong> 29 April 2026</li>
+</ul>
+
+
+<h2 id="abstract">Abstract</h2>
+<p>
+    The proliferation of AI-generated content is fundamentally altering the information ecosystems in which retrieval systems operate.
+    Search engines, recommender systems, and retrieval-augmented generation pipelines increasingly function in mixed environments
+    where synthetic and human-authored content are tightly interwoven, raising system-level challenges for information retrieval.
+    SynthIR provides a forum to examine these implications with emphasis on reflection, evaluation, and human-centered system design,
+    and to foster community discussion that may inform future evaluation efforts and shared tasks.
+</p>
+
+<h2 id="topics">Themes and Discussion Tasks</h2>
+    <p><strong>Focus areas</strong> include evaluation validity, provenance/attribution, grounding and trust signals, and user interaction in AIGC-aware IR systems.</p>
+
+    <p><strong>Micro shared tasks</strong> (lightweight analytical exercises):</p>
+    <ul>
+        <li><strong>Task A: AIGC in ranked retrieval results</strong> — ranking placement, perceived quality, provenance signals, and evaluation gaps.</li>
+        <li><strong>Task B: AIGC in retrieval-augmented generation (RAG)</strong> — factual alignment, attribution quality, hallucination patterns, and trust signals.</li>
+        <li><strong>Task C: Model provenance and attribution</strong> — provenance availability, attribution granularity, uncertainty representation, and impact on ranking/trust.</li>
+        <li><strong>Case study:</strong> sequential AIGC edits and provenance challenges in IR.</li>
+    </ul>
+
+    <h2 id="submission">Submission</h2>
+    <p>
+        We invite <strong>short analysis notes</strong> or <strong>position statements</strong> aligned with the tasks above. Submissions should emphasize analytical insights
+        and open questions rather than extensive system building.
+    </p>
+    <ul>
+        <li><strong>Format:</strong> short written submission (analysis note / position statement)</li>
+        <li><strong>Scope:</strong> evaluation, trust, provenance, and human-centered implications of synthetic content in IR</li>
+        <li><strong>Review:</strong> relevance, clarity, and potential to stimulate discussion</li>
+    </ul>
+
+    <h2 id="schedule">Workshop Format and Tentative Schedule</h2>
+    <p>
+        SynthIR is planned as a highly interactive half-day workshop, structured to move from shared context setting to task-driven analysis
+        and participant-driven discussion.
+    </p>
+
+<table>
+              <thead>
+                <tr>
+                  <th style="text-align:left">Time</th>
+                  <th style="text-align:left">Agenda</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>09:00–09:10</td><td>Welcome and framing of workshop goals</td></tr>
+                <tr><td>09:10–09:50</td><td>Keynote and moderated discussion</td></tr>
+                <tr><td>09:50–10:40</td><td>Panel discussion with audience interaction</td></tr>
+                <tr><td>10:40–11:00</td><td>Break</td></tr>
+                <tr><td>11:00–12:15</td><td>Thematic discussion sessions and informal exchange</td></tr>
+                <tr><td>12:15–12:45</td><td>Synthesis of discussion outcomes and closing remarks</td></tr>
+              </tbody>
+            </table>
+
+            <h2 id="organizing-team">Organizing Team</h2>
+
+            <table>
+            <thead>
+                <tr>
+                    <th style="text-align: center"><img src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/Ping-Liu.jpg" width="160"></th>
+                    <th style="text-align: center"><img src="https://www.zdzheng.xyz/images/mstile-150x150.webp" width="160"></th>
+                    <th style="text-align: center"><img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=OFlBSEEAAAAJ&citpid=8" width="160"></th>
+                    <th style="text-align: center"><img src="https://researchers.adelaide.edu.au/sites/default/files/styles/profile_large/public/profile-images/36567.webp?itok=sZ4Fm17I" width="160"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="text-align: center">
+            <a href="https://pinglmlcv.github.io/pingliu264/">Ping Liu</a>, University of Nevada, USA</td>
+                <td style="text-align: center">
+            <a href="https://zdzheng.xyz">Zhedong Zheng</a>, University of Macau, China</td>
+                <td style="text-align: center">
+            <a href="https://jsc.github.io/">J. Shane Culpepper</a>, University of Queensland, Australia</td>
+                <td style="text-align: center">
+            <a href="https://xinyu-au.github.io/">Xin Yu</a>, Adelaide University, Australia</td>
+                <td style="text-align: center">
+            </tbody>
+            </table>
+
+            <h2>Contact</h2>
+            <p>
+              For questions, please contact the organizers. (Replace this line with your preferred contact email / form.)
+            </p>
+
+            <h2>Workshop Citation</h2>
+            <div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{SynthIR2026,
+  title     = {SynthIR: Workshop on Synthetic Content in Information Retrieval Ecosystems},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026) Workshops},
+  year      = {2026}
+}</code></pre></div></div>
+
+</section>
+
+          <footer class="page__meta"></footer>
+        </div>
+      </article>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <div class="page__footer-copyright">
+          © 2026 SynthIR Workshop. Powered by Jekyll &amp; Minimal Mistakes (style-compatible template).
+        </div>
+      </footer>
+    </div>
+        
+
+        
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+  <!-- 社交图标部分 -->
+  <div class="page__footer-follow" style="flex: 1; min-width: 200px;">
+    <ul class="social-icons">
+      
+        <li><strong>Follow:</strong></li>
+        <li><a href="https://github.com/layumi"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      
+      
+      <li><a href="https://zdzheng.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+	  <li><a href="/sitemap/"> Sitemap</a></li>
+    </ul>
+  </div>
+
+  <!-- ClustrMaps 地图 -->
+  <div style="flex: 0 0 150px; height: 75px; margin: 0 auto;">
+    <link rel="preconnect" href="//cdn.clustrmaps.com">
+    <link rel="dns-prefetch" href="//cdn.clustrmaps.com">
+    <script async defer id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=n&amp;d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&amp;co=2d78ad&amp;ct=ffffff&amp;cmo=3acc3a&amp;cmn=ff5353"></script>
+  </div>
+</div>
+
+<div class="page__footer-copyright">© 2026 Zhedong Zheng. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://zdzheng.xyz/assets/js/main.min.js" async></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 图片数组（替换为你的实际路径）
+    const images = [
+      "https://zdzheng.xyz/images/profile.webp",
+      "https://zdzheng.xyz/images/profile2.webp",
+	  "https://zdzheng.xyz/images/profile3.webp"
+    ];
+    
+    // 随机选择一张图片
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    
+    // 设置到img标签
+    const avatar = document.getElementById("random-avatar");
+    if (avatar) {
+      avatar.src = randomImage;
+    }
+  });
+</script>
+  
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/layumi/layumi.github.io@';
+        
+        fetch(gsDataBaseUrl + "google-scholar-stats/gs_data.json")
+            .then(response => response.json())
+            .then(data => {
+                document.querySelectorAll('.show_paper_citations').forEach(element => {
+                    const paperId = element.getAttribute('data');
+                    const numCitations = data.publications[paperId]?.num_citations || 0;
+                    element.innerHTML = '| Citations: ' + numCitations;
+                });
+            })
+            .catch(err => console.error('Failed to load citations:', err));
+    });
+</script>
+
+<!--
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+-->
+
+
+  </body>
+</html>
+
