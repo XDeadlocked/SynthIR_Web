@@ -16,7 +16,7 @@ author_profile: false
 <div align='center'>
   <h2> Workshop on </h2>
   <h2> SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026) </h2>
-  <img src="./logo.png" alt="workshop logo" />
+  <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/logo.png?raw=true" alt="workshop logo" />
 </div>
 
 <meta name="og:image" content="logo.png" />
