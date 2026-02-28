@@ -28,7 +28,7 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 [[Submission Site]](https://openreview.net/)
 
 ## News
-- 22/4/2024 - Workshop homepage is now available.
+- 28/2/2026 - Workshop homepage is now available.
 
 ## Important Dates
 Please note: deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
