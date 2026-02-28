@@ -49,12 +49,14 @@ The proliferation of AI-generated content is fundamentally altering the informat
 - **Task C: Model provenance and attribution** — provenance availability, attribution granularity, uncertainty representation, and impact on ranking/trust.
 - **Case study:** sequential AIGC edits and provenance challenges in IR.
 
-## Submission
-We invite **short analysis notes** or **position statements** aligned with the tasks above. Submissions should emphasize analytical insights and open questions rather than extensive system building.
+## Submission Guidelines
+Full research papers must describe original work that has not been previously published (except on pre-print servers, see below for details), not accepted for publication elsewhere, and not simultaneously submitted or currently under review in another journal or conference (including the other tracks of SIGIR 2026). Please note that concurrent submissions are a violation of the [ACM Policy on Authorship](https://www.acm.org/publications/policies/new-acm-policy-on-authorship). The SIGIR 2026 program chairs will refer any such violations to the [Ethics & Plagiarism Committee](https://www.acm.org/publications/publications-board-committees) of the ACM Publications Board.
 
-- **Format:** short written submission (analysis note / position statement)
-- **Scope:** evaluation, trust, provenance, and human-centered implications of synthetic content in IR
-- **Review:** relevance, clarity, and potential to stimulate discussion
+Submissions of full research papers must be in English, in PDF format, and be at most 4 pages (including figures, tables, proofs, appendixes, acknowledgments, and any content except references) in length, with unrestricted space for references, in the current ACM two-column conference format. Suitable LaTeX, Word, and Overleaf templates are available from the [ACM Website](https://www.acm.org/publications/proceedings-template) (use “sigconf” proceedings template for LaTeX and the Interim Template for Word). ACM’s CCS concepts and keywords are required for review.
+
+For LaTeX, the following should be used:
+
+\documentclass[sigconf,natbib=true,anonymous=true]{acmart}
 
 ## Workshop Format and Tentative Schedule
 SynthIR is planned as a highly interactive half-day workshop, structured to move from shared context setting to task-driven analysis and participant-driven discussion.
