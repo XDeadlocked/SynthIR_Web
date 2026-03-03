@@ -25,13 +25,13 @@ author_profile: false
 
 SynthIR focuses on the system-level implications of AI-generated content in retrieval ecosystems, emphasizing evaluation validity, provenance, user trust, and human-centered design in mixed (synthetic + human-authored) information environments.
 
-[[Submission Site]](https://openreview.net/)
+[[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
 
 ## News
 - 28/2/2026 - Workshop homepage is now available.
 
 ## Important Dates
-Please note: deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
+Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
 - **Submission deadline:** 7 April 2026  
 - **Notification:** 22 April 2026  
@@ -50,6 +50,8 @@ The proliferation of AI-generated content is fundamentally altering the informat
 - **Case study:** sequential AIGC edits and provenance challenges in IR.
 
 ## Submission Guidelines
+[[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
+
 Full research papers must describe original work that has not been previously published (except on pre-print servers, see below for details), not accepted for publication elsewhere, and not simultaneously submitted or currently under review in another journal or conference (including the other tracks of SIGIR 2026). Please note that concurrent submissions are a violation of the [ACM Policy on Authorship](https://www.acm.org/publications/policies/new-acm-policy-on-authorship). The SIGIR 2026 program chairs will refer any such violations to the [Ethics & Plagiarism Committee](https://www.acm.org/publications/publications-board-committees) of the ACM Publications Board.
 
 Submissions of full research papers must be in English, in PDF format, and be at most 4 pages (including figures, tables, proofs, appendixes, acknowledgments, and any content except references) in length, with unrestricted space for references, in the current ACM two-column conference format. Suitable LaTeX, Word, and Overleaf templates are available from the [ACM Website](https://www.acm.org/publications/proceedings-template) (use “sigconf” proceedings template for LaTeX and the Interim Template for Word). ACM’s CCS concepts and keywords are required for review.
