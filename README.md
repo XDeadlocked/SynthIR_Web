@@ -34,8 +34,8 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
 - **Submission deadline:** 7 April 2026  
-- **Notification:** 22 April 2026  
-- **Camera-ready:** 29 April 2026  
+- **Notification:** 22 June 2026  
+- **Camera-ready:** 29 June 2026  
 
 ## Abstract
 The proliferation of AI-generated content is fundamentally altering the information ecosystems in which retrieval systems operate. Search engines, recommender systems, and retrieval-augmented generation pipelines increasingly function in mixed environments where synthetic and human-authored content are tightly interwoven, raising system-level challenges for information retrieval. SynthIR provides a forum to examine these implications with emphasis on reflection, evaluation, and human-centered system design, and to foster community discussion that may inform future evaluation efforts and shared tasks.
@@ -74,7 +74,7 @@ SynthIR is planned as a highly interactive half-day workshop, structured to move
 
 ## Organizing Team
 
-| <img src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/Ping-Liu.jpg" width="160" /> | <img src="https://www.zdzheng.xyz/images/mstile-150x150.webp" width="160" /> | <img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=OFlBSEEAAAAJ&citpid=8" width="160" /> | <img src="https://researchers.adelaide.edu.au/sites/default/files/styles/profile_large/public/profile-images/36567.webp?itok=sZ4Fm17I" width="160" /> |
+| <img src="https://www.unr.edu/main/images/colleges-schools/engineering/cse/profiles/Ping-Liu.jpg" width="160" /> | <img src="https://www.zdzheng.xyz/images/mstile-150x150.webp" width="160" /> | <img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=OFlBSEEAAAAJ&citpid=8" width="160" /> | <img src="https://xinyu-au.github.io/images/profile.png" width="160" /> |
 | :-: | :-: | :-: | :-: |
 | [Ping Liu](https://pinglmlcv.github.io/pingliu264/), University of Nevada, USA | [Zhedong Zheng](https://zdzheng.xyz), University of Macau, China | [J. Shane Culpepper](https://jsc.github.io/), University of Queensland, Australia | [Xin Yu](https://xinyu-au.github.io/), Adelaide University, Australia |
 
