@@ -27,13 +27,17 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 
 [[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
 
+[[Competition Site]](https://www.codabench.org/competitions/15351/)
+
 ## News
 - 28/2/2026 - Workshop homepage is now available.
+- 10/4/2026 - Competition is now available.
 
 ## Important Dates
 Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
-- **Submission deadline:** 7 May 2026  
+- **Competition deadline:*** 21 May 2026
+- **Submission deadline:** 30 May 2026  
 - **Notification:** 22 June 2026  
 - **Camera-ready:** 29 June 2026  
 
