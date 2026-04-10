@@ -33,7 +33,7 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 ## Important Dates
 Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
-- **Submission deadline:** 7 April 2026  
+- **Submission deadline:** 7 May 2026  
 - **Notification:** 22 June 2026  
 - **Camera-ready:** 29 June 2026  
 
