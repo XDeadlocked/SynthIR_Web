@@ -27,7 +27,14 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 
 [[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
 
+## SEER
+<div align='center'>
+  <h2> Workshop on </h2>
+  <h2> SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026) </h2>
+  <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/logo.png?raw=true" alt="competition logo" />
+</div>
 [[Competition Site]](https://www.codabench.org/competitions/15351/)
+[[Paper Site]](https://arxiv.org/abs/2604.10522)
 
 ## News
 - 28/2/2026 - Workshop homepage is now available.
