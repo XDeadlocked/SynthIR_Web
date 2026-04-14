@@ -27,7 +27,7 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 
 [[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
 
-## SEED: 
+## SEED: Benchmark for Provenance Tracing in Sequential Deepfake Facial Edits
 <div align='center'>
   <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/competition.jpg?raw=true" alt="competition logo" />
 </div>
