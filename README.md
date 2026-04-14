@@ -106,3 +106,16 @@ For questions, please contact the organizers. (Replace this line with your prefe
   year      = {2026}
 }
 ```
+
+## Competition & Benchmark Citation
+```bibtex
+@misc{hoi2026seedlargescalebenchmarkprovenance,
+      title={SEED: A Large-Scale Benchmark for Provenance Tracing in Sequential Deepfake Facial Edits}, 
+      author={Mengieong Hoi and Zhedong Zheng and Ping Liu and Wei Liu},
+      year={2026},
+      eprint={2604.10522},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2604.10522}, 
+}
+```
