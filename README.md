@@ -32,7 +32,7 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
   <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/competition.jpg?raw=true" alt="competition logo" />
 </div>
 
-We introduce SEED, the first large-scale benchmark for sequential visual provenance tracing in facial imagery. SEED contains 91,526 images built from highquality real face datasets (FFHQ [11] and CelebAMask-HQ [13]) and edited by
+We introduce SEED, the first large-scale benchmark for sequential visual provenance tracing in facial imagery. SEED contains 91,526 images built from highquality real face datasets (FFHQ and CelebAMask-HQ) and edited by
 diffusion-based pipelines. Unlike prior benchmarks that focus on isolated manipulations, SEED targets sequential editing: each sample is produced by applying
 one to four attribute edits in order, where later operations may partially overwrite
 earlier traces. 
