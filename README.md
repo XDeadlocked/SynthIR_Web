@@ -27,13 +27,18 @@ SynthIR focuses on the system-level implications of AI-generated content in retr
 
 [[Submission Site]](https://openreview.net/group?id=ACM.org/SIGIR/2026/Workshop/SynthIR)
 
-## SEER
+## SEED: 
 <div align='center'>
-  <h2> Workshop on </h2>
-  <h2> SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems (SIGIR 2026) </h2>
-  <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/logo.png?raw=true" alt="competition logo" />
+  <img src="https://github.com/XDeadlocked/SynthIR_Web/blob/main/competition.jpg?raw=true" alt="competition logo" />
 </div>
+
+We introduce SEED, the first large-scale benchmark for sequential visual provenance tracing in facial imagery. SEED contains 91,526 images built from highquality real face datasets (FFHQ [11] and CelebAMask-HQ [13]) and edited by
+diffusion-based pipelines. Unlike prior benchmarks that focus on isolated manipulations, SEED targets sequential editing: each sample is produced by applying
+one to four attribute edits in order, where later operations may partially overwrite
+earlier traces. 
+
 [[Competition Site]](https://www.codabench.org/competitions/15351/)
+
 [[Paper Site]](https://arxiv.org/abs/2604.10522)
 
 ## News
@@ -97,6 +102,7 @@ For questions, please contact the organizers. (Replace this line with your prefe
 @inproceedings{SynthIR2026,
   title     = {SynthIR: Workshop on Synthetic Content in Information Retrieval Ecosystems},
   booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026) Workshops},
+  author = {Ping Liu, Zhedong Zheng, J. Shane Culpepper, Xin Yu},
   year      = {2026}
 }
 ```
