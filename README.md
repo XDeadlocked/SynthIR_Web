@@ -44,12 +44,13 @@ earlier traces.
 ## News
 - 28/2/2026 - Workshop homepage is now available.
 - 10/4/2026 - Competition is now available.
+- 26/5/2026 - Submission deadline has been extended to 6 June 2026.
 
 ## Important Dates
 Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
 - **Competition deadline:** 21 May 2026
-- **Submission deadline:** 30 May 2026  
+- <mark>**Submission deadline:** ~~30 May 2026~~ 6 June 2026</mark>  
 - **Notification:** 22 June 2026  
 - **Camera-ready:** 29 June 2026  
 
