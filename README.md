@@ -41,6 +41,9 @@ earlier traces.
 
 [[Paper Site]](https://arxiv.org/abs/2604.10522)
 
+> [!NOTE]
+> The submission deadline has been extended to 6 June 2026. We encourage participants to publicly release their code to support reproducibility and community reuse. We will issue certificates for the **Best Paper Award**, **Most Creative Approach Award**, and **Community Contribution Award**.
+
 ## News
 - 28/2/2026 - Workshop homepage is now available.
 - 10/4/2026 - Competition is now available.
