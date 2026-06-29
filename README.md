@@ -48,14 +48,15 @@ earlier traces.
 - 28/2/2026 - Workshop homepage is now available.
 - 10/4/2026 - Competition is now available.
 - 26/5/2026 - Submission deadline has been extended to 6 June 2026.
+- 29/6/2026 - Notification and camera-ready dates have been updated.
 
 ## Important Dates
 Please note: Deadlines are at 11:59 p.m. of the stated deadline date [Anywhere on Earth](https://time.is/Anywhere_on_Earth)
 
 - **Competition deadline:** 21 May 2026
 - **Submission deadline:** ~~30 May 2026~~ 6 June 2026  
-- **Notification:** 22 June 2026  
-- **Camera-ready:** 29 June 2026  
+- **Notification:** 29 June 2026  
+- **Camera-ready:** 4 July 2026  
 
 ## Abstract
 The proliferation of AI-generated content is fundamentally altering the information ecosystems in which retrieval systems operate. Search engines, recommender systems, and retrieval-augmented generation pipelines increasingly function in mixed environments where synthetic and human-authored content are tightly interwoven, raising system-level challenges for information retrieval. SynthIR provides a forum to examine these implications with emphasis on reflection, evaluation, and human-centered system design, and to foster community discussion that may inform future evaluation efforts and shared tasks.
