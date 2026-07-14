@@ -82,16 +82,17 @@ For LaTeX, the following should be used:
 \documentclass[sigconf,natbib=true,anonymous=true]{acmart}
 
 ## Workshop Format and Tentative Schedule
-SynthIR is planned as a highly interactive half-day workshop, structured to move from shared context setting to task-driven analysis and participant-driven discussion.
-
-| Time | Agenda |
-|---|---|
-| 09:00–09:10 | Welcome and framing of workshop goals |
-| 09:10–09:50 | Keynote and moderated discussion |
-| 09:50–10:40 | Panel discussion with audience interaction |
-| 10:40–11:00 | Break |
-| 11:00–12:15 | Thematic discussion sessions and informal exchange |
-| 12:15–12:45 | Synthesis of discussion outcomes and closing remarks |
+| Time | Paper | PDF |
+|---|---|---|
+| 09:00–09:15 | **EMMM, Explain Me My Model! Explainable Multi-Dimension Multi-Level Multi-Strategy Chatbot Detection**<br>Angela Yifei Yuan, Haoyi Li, Soyeon Caren Han, and Christopher Leckie<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/emmm-explain-me-my-model.pdf) |
+| 09:15–09:30 | **Faithful or Findable? Evaluating LLM-Generated Metadata for RDF Dataset Search**<br>Riccardo Terrenzi and Serkan Ayvaz<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/faithful-or-findable.pdf) |
+| 09:30–09:45 | **HybridQPP: Scaling Synthetic Evaluation Signals through Pointwise and Pairwise LLM Alignment**<br>Cezary Golecki, Aleksander Wawer, and Paweł Zawistowski<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/hybridqpp.pdf) |
+| 09:45–10:00 | **OpenCoderRank: Personalized Technical Assessments with Generative AI**<br>Hridoy Sankar Dutta, Sana Ansari, Swati Kumari, and Shounak Ravi Bhalerao<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/opencoderrank.pdf) |
+| 10:00–10:15 | Coffee break | — |
+| 10:15–10:30 | **Relevant but Hard to Recover: An Empirical Study of AIGC Rewrites in Ranked Retrieval**<br>Ding Wu<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/relevant-but-hard-to-recover.pdf) |
+| 10:30–10:45 | **Silent Failures in Multimodal Agentic Search: A Diagnostic Taxonomy and Cross-Judge Evaluation**<br>Zhengxian Wu, Junjie Gao, and Kai Yang<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/silent-failures.pdf) |
+| 10:45–11:00 | **Towards Vision-Free CIR: Attribute-Augmented Scoring and LLM-Based Reranking for Zero-Shot Composed Image Retrieval**<br>Ryotaro Shimada, Yu-Chieh Lin, Yuji Nozawa, Youyang Ng, Osamu Torii, and Yusuke Matsui<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/towards-vision-free-cir.pdf) |
+| 11:00–11:15 | **When Do LLM-Generated Note Cards Help Retrieval and Reranking?**<br>Shanmin Sun and Xinlu Lin<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/when-do-llm-generated-note-cards-help.pdf) |
 
 ## Organizing Team
 
