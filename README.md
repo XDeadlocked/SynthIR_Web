@@ -81,7 +81,12 @@ For LaTeX, the following should be used:
 
 \documentclass[sigconf,natbib=true,anonymous=true]{acmart}
 
-## Workshop Format and Tentative Schedule
+## Workshop Format and Schedule
+
+SynthIR is planned as a highly interactive half-day workshop, structured to move from shared context setting to task-driven analysis and participant-driven discussion.
+
+**Date:** July 24, 2026
+
 | Time | Paper | PDF |
 |---|---|---|
 | 09:00–09:15 | **EMMM, Explain Me My Model! Explainable Multi-Dimension Multi-Level Multi-Strategy Chatbot Detection**<br>Angela Yifei Yuan, Haoyi Li, Soyeon Caren Han, and Christopher Leckie<br>SIGIR 2026 SynthIR Workshop | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/emmm-explain-me-my-model.pdf) |
