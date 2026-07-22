@@ -3,6 +3,7 @@ title: "SynthIR @ SIGIR 2026"
 collection: pages
 permalink: /SIGIR2026Workshop-SynthIR
 author_profile: false
+classes: wide
 ---
 
 <div align='center'>
