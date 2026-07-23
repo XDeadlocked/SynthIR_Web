@@ -90,13 +90,13 @@ SynthIR is planned as a highly interactive half-day workshop, structured to move
 
 **Location:** Room 112
 
-| Time | Paper | PDF |
+| Time | Paper | Link |
 |---|---|---|
 | 13:30–13:45 | Welcome and Award Announcement | — |
 | 13:45–14:30 | **Invited Talk**<br>Prof. J. Shane Culpepper, University of Queensland, AU | — |
 | 14:30–14:45 | **Towards Vision-Free CIR: Attribute-Augmented Scoring and LLM-Based Reranking for Zero-Shot Composed Image Retrieval**<br>Ryotaro Shimada, Yu-Chieh Lin, Yuji Nozawa, Youyang Ng, Osamu Torii, and Yusuke Matsui<br>SIGIR 2026 SynthIR Workshop<br>In-person presentation | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/towards-vision-free-cir.pdf) |
 | 14:45–15:00 | **HybridQPP: Scaling Synthetic Evaluation Signals through Pointwise and Pairwise LLM Alignment**<br>Cezary Golecki, Aleksander Wawer, and Paweł Zawistowski<br>SIGIR 2026 SynthIR Workshop<br>In-person presentation | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/hybridqpp.pdf) |
-| 15:00–15:15 | **Remote Talk: Competition Benchmark**<br>Mr. Mengieong Hoi | — |
+| 15:00–15:15 | **Remote Talk: Competition Benchmark**<br>Mr. Mengieong Hoi | [Zoom](https://uqz.zoom.us/j/87563946055?from=addon) |
 | 15:15–15:30 | Coffee break | — |
 | 15:30–15:45 | **Silent Failures in Multimodal Agentic Search: A Diagnostic Taxonomy and Cross-Judge Evaluation**<br>Zhengxian Wu, Junjie Gao, and Kai Yang<br>SIGIR 2026 SynthIR Workshop<br>Video presentation | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/silent-failures.pdf) |
 | 15:45–16:00 | **Faithful or Findable? Evaluating LLM-Generated Metadata for RDF Dataset Search**<br>Riccardo Terrenzi and Serkan Ayvaz<br>SIGIR 2026 SynthIR Workshop<br>Video presentation | [PDF](https://github.com/XDeadlocked/SynthIR_Web/blob/main/papers/faithful-or-findable.pdf) |
